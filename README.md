@@ -1,3 +1,3 @@
 # 2023-Djanog-Mentoring-Assigment
 
-안녕하세요
+디장고 멘토링 과제 레포!
