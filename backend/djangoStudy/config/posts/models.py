@@ -14,5 +14,3 @@ class Post(models.Model):
         User, # User 모델과 Post 모델을 M:N 관계로 두겠다.
         related_name = 'likes'
     )
-    def __str__(self):
-        return self.title
