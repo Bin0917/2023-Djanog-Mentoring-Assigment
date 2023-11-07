@@ -11,7 +11,7 @@ class Post(models.Model):
     writtenDate = models.DateField(auto_now=True)
     image = models.ImageField(upload_to='pictures', null=True)
     likes = models.ManyToManyField(
-        User, # User 모델과 Blog 모델을 M:N 관계로 두겠다.
+        User, # User 모델과 Post 모델을 M:N 관계로 두겠다.
         related_name = 'likes'
     )
     def __str__(self):
