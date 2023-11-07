@@ -12,5 +12,4 @@ from django.contrib.auth.models import AbstractUser
     
 class User(AbstractUser):
     #settings.py 에 이미지 저장 경로 추가
-    profileImage = models.ImageField(upload_to='pictures', null=True)   
-    
+    profileImage = models.ImageField(upload_to='pictures', null=True)

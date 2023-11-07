@@ -7,4 +7,4 @@ class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     reply = models.CharField(max_length=70)
     content = models.CharField(max_length=70)
-    writtenDate = models.DateField(auto_now=False, auto_created=True)
+    writtenDate = models.DateField(auto_now=True)
